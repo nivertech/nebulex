@@ -42,7 +42,7 @@ defmodule Nebulex.Mixfile do
 
   defp deps do
     [
-      {:shards, "~> 0.6"},
+      {:shards, git: "git@github.com:nivertech/shards.git", branch: "v0.6.2_disable_warnings_as_errors"},
       {:decorator, "~> 1.3"},
 
       # Test
